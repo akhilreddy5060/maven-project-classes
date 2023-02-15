@@ -210,10 +210,14 @@
     <connection>scm:git:git@github.com:thumuvikram/maven-project-classes.git</connection>
     <developerConnection>scm:git:git@github.com:thumuvikram/maven-project-classes.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/thumuvikram/maven-project-classes/</url>
+    <url>http://github.com/thumuvikram/maven-project-classes/</url>
   </scm>
 
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+  <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+  </properties>
 </project>
